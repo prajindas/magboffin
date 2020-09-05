@@ -1,0 +1,237 @@
+.nav{
+    position: relative;
+    right: 10px;
+  }
+.container{
+    margin: 0 auto;
+} 
+.row-header{
+    padding: 50px 0;
+}
+.row-content{
+    padding: 40px 0;
+}
+.row-bottom{
+    padding-bottom: 40px;
+}
+.jumbotron{
+    height: 600px;
+    background: rgb(23,210,227);
+    background: linear-gradient(166deg, rgba(23,210,227,1) 0%, rgba(12,31,94,1) 69%, rgba(1,21,59,1) 100%); 
+}
+.bg-ass-1{
+    height: 500px;
+    background-image: url(./images/Asset\ 21.svg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    
+}  
+.bg-face-1{
+    height: 600px;
+    background-image: url(./images/face\ Face-01\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    
+}  
+.AI01{
+    padding-top: 70px;
+    z-index: 3;
+    bottom: 0px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .AI02{
+    z-index: 3;
+    top: 0px;
+    font-size: 30px;
+    color: white;
+    bottom: 1050px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .desc{
+    z-index: 3;
+    bottom: 920px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    color: #fff;
+  }
+  .get_started{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 900px;
+    z-index: 2;
+    border-radius: 50rem;
+  }
+
+.letus{
+    z-index: 2;
+    font-family: 'Barlow', sans-serif;
+    font-size: 45px;
+    color: #0f4c75;
+    left: 370px;
+    bottom: 600px;
+    font-weight: 500;
+  }
+
+  .middlecontainer01{
+    background-color: #fff;
+    width: 100%;
+    background-image: url(./images/Asset\ 13.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
+  .btns{
+    width: 140px;
+    height: 140px;
+    background: rgb(13,140,200);
+  background: linear-gradient(333deg, rgba(13,140,200,1) 3%, rgba(23,210,227,1) 50%, rgba(23,210,227,1) 83%);
+  }
+  .texts{
+    position: relative;
+    top: 40px;
+  }
+
+  .btns{
+      margin: 10px;
+      margin-left: 10px;
+  }
+
+  .comp{
+    width: 300px;
+    height: 190px;
+  }
+
+  .about01{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+  }
+  
+  .des01{
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #dbe3e5;
+      line-height: 2;
+  
+  }
+
+  .middlecontainer02{
+    background: rgb(23,210,227);
+    background: linear-gradient(166deg, rgba(23,210,227,1) 0%, rgba(12,31,94,1) 69%, rgba(1,21,59,1) 100%);
+    width: 100%;
+    
+  }
+
+  .desc01{
+    top: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+  }
+  .logo02{
+    color: #fff;
+    font-size: 25px;
+    top: 27px;
+    font-family: 'Alata', sans-serif;
+    border-style: solid;
+    padding: 9px;
+    z-index: 1;
+  }
+  
+ 
+  .lastcontainer{
+    background: rgb(23,210,227);
+    background: linear-gradient(166deg, rgba(23,210,227,1) 0%, rgba(12,31,94,1) 69%, rgba(1,21,59,1) 100%);
+    width: 100%;
+    
+  }
+
+  .social-icon{
+      font-size: x-large;
+      margin: 20px 15px;
+      color: #fff;
+  }
+.text-right{
+    color: #fff;
+}
+.copyright{
+    color:#fff
+}
+.bg-footer{
+    background-image: url(./images/Asset\ 21.svg);
+}
+
+
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (max-width: 768px) {  
+
+    .about01{
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        font-size: small;
+      }
+      
+      .des01{
+          font-family: 'Source Sans Pro', sans-serif;
+          color: #dbe3e5;
+          line-height: 2;
+          font-size: small;
+      
+      }
+      AI01{
+        padding-top: 70px;
+        z-index: 3;
+        bottom: 0px;
+        font-size: 50px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      
+      .AI02{
+        z-index: 3;
+        top: 0px;
+        font-size: 25px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      
+      .desc{
+        z-index: 3;
+        bottom: 920px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+        color: #fff;
+      }
+   
+}
+@media (max-width: 544px) {  
+    .bg-face-1{
+        height: 0x;
+        background-image:none;
+        
+    } 
+    
+  .btns{
+    margin: 3px;
+    margin-left: 0px;
+}   
+.btns{
+    width: 130px;
+    height: 130px;
+} 
+.texts{
+    font-size: large;
+}
+.about01{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-size: small;
+    padding-top: 20px ;
+  }
+  .desc01{
+    top: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+  }
+}
